@@ -96,7 +96,7 @@ console.log(instructor);//'Tony'
       var instructor = 'Franco';
       console.log(instructor);//'Franco'
    }
-})();
+})();//funcion autoinvocada
 console.log(instructor);//'Tony'
 
 //ejrcicio 5
@@ -178,7 +178,7 @@ var obj = {
    prop: {
       fullname: 'Aurelio De Rosa',
       getFullname: function () {
-         return this.fullname;
+        return this.fullname;
       },
    },
 };
